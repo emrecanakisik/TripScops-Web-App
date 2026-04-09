@@ -10,7 +10,7 @@ import Footer from "./Footer";
 
 export default function Layout() {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#E6F3FF] via-[#FFFFFF] to-[#FBE5D6]">
+    <div className="min-h-screen bg-gradient-to-br from-[#E6F3FF] via-[#FFFFFF] to-[#FBE5D6] overflow-x-hidden">
       <main>
         <HeroLayout />
         <SocialProof />

@@ -21,7 +21,7 @@ const testimonialsData = [
 
 export default function Testimonials() {
   return (
-    <section id="testimonials" className="relative py-28 md:py-36 px-6 md:px-10 bg-transparent w-full overflow-hidden">
+    <section id="testimonials" className="relative py-28 md:py-36 px-6 md:px-10 bg-transparent w-full">
       
       {/* Absolute Background Glow Container */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-[40%] w-full max-w-[900px] h-[350px] md:h-[450px] pointer-events-none z-0">
