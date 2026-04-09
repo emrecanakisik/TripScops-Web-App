@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../assets/logo.png';
+import { useToast } from './ToastContext';
 
 function Logo() {
   return (
@@ -11,6 +12,13 @@ function Logo() {
 }
 
 export default function Navbar() {
+  const { showToast } = useToast();
+
+  const handleDownloadClick = (e) => {
+    e.preventDefault();
+    showToast('We are launching soon!', 3000);
+  };
+
   return (
     <nav className="w-full py-5 flex items-center justify-between">
       {/* Left: Logo */}
@@ -26,7 +34,11 @@ export default function Navbar() {
 
       {/* Right: Actions */}
       <div className="flex items-center gap-8">
-        <a href="#download" className="bg-[#0A0F1C] text-white px-6 py-3 rounded-full text-sm font-semibold hover:bg-black transition-colors shadow-md hidden sm:inline-flex">
+        <a 
+          href="#download" 
+          onClick={handleDownloadClick}
+          className="bg-[#0A0F1C] text-white px-6 py-3 rounded-full text-sm font-semibold hover:bg-black transition-colors shadow-md hidden sm:inline-flex"
+        >
           Download App
         </a>
         <a href="#login" className="hidden md:block text-gray-800 font-semibold hover:text-black transition-colors">

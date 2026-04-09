@@ -1,6 +1,14 @@
 import React from 'react';
+import { useToast } from './ToastContext';
 
 export default function FinalCTA() {
+  const { showToast } = useToast();
+
+  const handleDownloadClick = (e) => {
+    e.preventDefault();
+    showToast('We are launching soon!', 3000);
+  };
+
   return (
     <section id="cta" className="py-24 px-6 md:px-10 bg-transparent w-full">
       <div className="max-w-6xl mx-auto">
@@ -30,7 +38,10 @@ export default function FinalCTA() {
 
             {/* Action Buttons */}
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4 w-full sm:w-auto">
-              <button className="w-full sm:w-auto bg-white text-black font-semibold px-8 py-3.5 rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all outline-none">
+              <button 
+                onClick={handleDownloadClick}
+                className="w-full sm:w-auto bg-white text-black font-semibold px-8 py-3.5 rounded-xl shadow-lg hover:shadow-xl hover:-translate-y-0.5 transition-all outline-none"
+              >
                 Download App
               </button>
               

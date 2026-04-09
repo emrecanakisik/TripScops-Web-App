@@ -1,6 +1,14 @@
 import HeroPhoneImage from "./assets/HeroPhoneImage";
+import { useToast } from "./ToastContext";
 
 export default function HeroSection() {
+  const { showToast } = useToast();
+
+  const handleDownloadClick = (e) => {
+    e.preventDefault();
+    showToast('We are launching soon!', 3000);
+  };
+
   return (
     <section id="hero" className="relative overflow-hidden pt-12 md:pt-20 pb-16 md:pb-24 px-6 md:px-10">
       <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center gap-12 md:gap-8">
@@ -21,6 +29,7 @@ export default function HeroSection() {
             {/* Example: <a href="https://apps.apple.com/..."><img src="/path/to/app-store-badge.svg" alt="Download on the App Store" className="h-12" /></a> */}
             <a
               href="#"
+              onClick={handleDownloadClick}
               id="hero-appstore-btn"
               className="inline-flex items-center gap-2.5 bg-gray-900 text-white px-5 py-3 rounded-xl hover:bg-gray-800 transition-all duration-200 shadow-lg hover:shadow-xl group"
             >
