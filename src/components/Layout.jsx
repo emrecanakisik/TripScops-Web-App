@@ -18,8 +18,9 @@ export default function Layout() {
         <AIAssistantSection />
         <Testimonials />
         <HowItWorks />
-        <BuilderStory />
         <FinalCTA />
+        <BuilderStory />
+        
       </main>
       <Footer />
     </div>

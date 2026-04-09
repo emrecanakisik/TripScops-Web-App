@@ -18,10 +18,10 @@ export default function HeroContent() {
   return (
     <div className="flex flex-col items-start w-full">
       <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-black leading-[1.05] tracking-tight mb-6 mt-12 md:mt-24 lg:mt-32">
-        Plan smarter.<br />Travel better.
+        Plan smarter<br />Travel better.
       </h1>
       <p className="text-xl md:text-[22px] text-gray-600 max-w-lg leading-relaxed mb-10">
-        Create complete travel plans in seconds with AI — from discovery to booking.
+        Create complete travel plans in seconds with AI from discovery to booking.
       </p>
       
       <div className="flex flex-col sm:flex-row items-center gap-6 mb-16 w-full sm:w-auto">

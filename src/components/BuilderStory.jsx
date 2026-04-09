@@ -13,9 +13,9 @@ export default function BuilderStory() {
     <section id="builder-story" className="py-24 px-6 md:px-10 bg-transparent w-full">
       <div className="max-w-[1000px] mx-auto">
         {/* Title */}
-        <h2 className="text-3xl md:text-4xl font-bold text-black text-center mb-16">
+        {/* <h2 className="text-3xl md:text-4xl font-bold text-black text-center mb-16">
           Builder / Story
-        </h2>
+        </h2> */}
 
         {/* 2-Column Grid */}
         <div className="flex flex-col md:flex-row items-center gap-12 lg:gap-16">
