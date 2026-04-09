@@ -6,7 +6,7 @@ function Logo() {
   return (
     <div className="flex items-center gap-2">
       <img src={logo} alt="Tripscops Logo" className="w-8 h-8 md:w-10 md:h-10 object-contain" draggable="false" />
-      <span className="font-semibold text-black text-[22px] tracking-tight">Tripscops</span>
+      <span className="font-semibold text-black text-[22px] tracking-tight">tripscopes</span>
     </div>
   );
 }

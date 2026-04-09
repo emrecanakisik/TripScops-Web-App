@@ -14,7 +14,7 @@ export default function Footer() {
           {/* Left Block (Logo) */}
           <div className="flex items-center gap-3">
             <img src={logo} alt="Tripscops Logo" className="w-10 h-10 object-contain" draggable="false" />
-            <span className="font-extrabold text-xl text-black tracking-tight">Tripscops</span>
+            <span className="font-extrabold text-xl text-black tracking-tight">tripscopes</span>
           </div>
 
           {/* Center Block (Links) */}

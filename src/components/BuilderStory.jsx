@@ -42,7 +42,7 @@ export default function BuilderStory() {
             </p>
 
             <p className="text-gray-600 text-base leading-relaxed mb-10">
-              So I built Tripscops. Less planning, more exploring.
+              So I built tripscopes. Less planning, more exploring.
             </p>
 
             {/* Social & Badge Row */}
