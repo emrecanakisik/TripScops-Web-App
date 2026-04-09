@@ -1,11 +1,10 @@
 import React from 'react';
+import logo from '../assets/logo.png';
 
-function LogoPlaceholder() {
+function Logo() {
   return (
     <div className="flex items-center gap-2">
-      <div className="w-8 h-8 md:w-10 md:h-10 bg-black rounded-lg flex items-center justify-center">
-        <span className="text-white font-bold text-xl">T</span>
-      </div>
+      <img src={logo} alt="Tripscops Logo" className="w-8 h-8 md:w-10 md:h-10 object-contain" draggable="false" />
       <span className="font-semibold text-black text-[22px] tracking-tight">Tripscops</span>
     </div>
   );
@@ -15,7 +14,7 @@ export default function Navbar() {
   return (
     <nav className="w-full py-5 flex items-center justify-between">
       {/* Left: Logo */}
-      <LogoPlaceholder />
+      <Logo />
 
       {/* Center: Menu */}
       <ul className="hidden md:flex items-center gap-9 text-gray-800 font-medium text-[15px]">

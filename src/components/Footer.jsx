@@ -1,15 +1,5 @@
 import React from 'react';
-
-/** 
- * Navbar logomuza benzeyen ama basitlestirilmis placeholder 
- */
-function LogoPlaceholder() {
-  return (
-    <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center border border-gray-200">
-      <div className="w-5 h-5 bg-gradient-to-br from-blue-500 to-indigo-600 rounded-sm rotate-45 flex items-center justify-center"></div>
-    </div>
-  );
-}
+import logo from '../assets/logo.png';
 
 const footerLinks = ["Features", "How it works", "Reviews", "Pricing"];
 
@@ -23,7 +13,7 @@ export default function Footer() {
           
           {/* Left Block (Logo) */}
           <div className="flex items-center gap-3">
-            <LogoPlaceholder />
+            <img src={logo} alt="Tripscops Logo" className="w-10 h-10 object-contain" draggable="false" />
             <span className="font-extrabold text-xl text-black tracking-tight">Tripscops</span>
           </div>
 
