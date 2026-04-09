@@ -1,21 +1,28 @@
 import React from 'react';
 import FeatureCard from './FeatureCard';
 
+import features1 from '../assets/features-1.png';
+import features2 from '../assets/features-2.png';
+import features3 from '../assets/features-3.png';
+
 const featuresData = [
   {
     title: "AI Trip Suggestions",
     description: "Create complete itineraries with real-time recommendations tailored to your style.",
     active: true,
+    image: features1,
   },
   {
     title: "Real-time Flight Tracking",
     description: "Monitor your flights seamlessly with up-to-the-minute updates and notifications.",
     active: false,
+    image: features2,
   },
   {
     title: "Booking Management",
     description: "Keep all your reservations, tickets, and plans organized in one single place.",
     active: false,
+    image: features3,
   }
 ];
 
@@ -35,6 +42,7 @@ export default function Features() {
               title={feature.title}
               description={feature.description}
               active={feature.active}
+              image={feature.image}
             />
           ))}
         </div>

@@ -28,7 +28,7 @@ const iconConfig = {
   }
 };
 
-export default function FeatureCard({ title, description, index, active }) {
+export default function FeatureCard({ title, description, index, active, image }) {
   const config = iconConfig[index] || iconConfig[0];
 
   return (
@@ -48,7 +48,7 @@ export default function FeatureCard({ title, description, index, active }) {
         </p>
       </div>
 
-      <MiniMockupPlaceholder index={index} />
+      <MiniMockupPlaceholder index={index} image={image} />
     </div>
   );
 }
