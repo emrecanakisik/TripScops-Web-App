@@ -2,9 +2,9 @@ import React from 'react';
 import StepItem from './StepItem';
 import StepArrow from './StepArrow';
 
-import howItWorks1 from '../assets/how-it-works-1.png';
-import howItWorks2 from '../assets/how-it-works-2.png';
-import howItWorks3 from '../assets/how-it-works-3.png';
+import howItWorks1 from '../assets/how-it-works-1.webp';
+import howItWorks2 from '../assets/how-it-works-2.webp';
+import howItWorks3 from '../assets/how-it-works-3.webp';
 
 const steps = [
   {

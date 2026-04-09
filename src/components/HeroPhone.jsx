@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImage from '../assets/hero1.png';
+import heroImage from '../assets/hero1.webp';
 
 export default function HeroPhone() {
   return (

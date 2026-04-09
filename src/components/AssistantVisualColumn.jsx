@@ -1,5 +1,5 @@
 import React from 'react';
-import aiAssistantImage from '../assets/ai-assistant-detailed.png';
+import aiAssistantImage from '../assets/ai-assistant-detailed.webp';
 
 export default function AssistantVisualColumn() {
   return (

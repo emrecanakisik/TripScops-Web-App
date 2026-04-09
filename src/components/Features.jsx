@@ -1,9 +1,9 @@
 import React from 'react';
 import FeatureCard from './FeatureCard';
 
-import features1 from '../assets/features-1.png';
-import features2 from '../assets/features-2.png';
-import features3 from '../assets/features-3.png';
+import features1 from '../assets/features-1.webp';
+import features2 from '../assets/features-2.webp';
+import features3 from '../assets/features-3.webp';
 
 const featuresData = [
   {
