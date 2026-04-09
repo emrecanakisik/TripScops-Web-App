@@ -24,7 +24,7 @@ export default function HeroContent() {
         Create complete travel plans in seconds with AI from discovery to booking.
       </p>
       
-      <div className="flex flex-col sm:flex-row items-center gap-6 mb-16 w-full sm:w-auto">
+      <div className="flex flex-col sm:flex-row items-center gap-6 mb-6 w-full sm:w-auto">
         <AppStoreButtonPlaceholder />
         
         <a href="#video" className="flex items-center gap-3 group text-black font-semibold text-lg hover:opacity-80 transition-opacity">
