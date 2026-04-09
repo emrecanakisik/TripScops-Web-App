@@ -13,14 +13,13 @@ export default function Layout() {
     <div className="min-h-screen bg-gradient-to-br from-[#E6F3FF] via-[#FFFFFF] to-[#FBE5D6] overflow-x-hidden">
       <main>
         <HeroLayout />
-        <SocialProof />
+        {/* <SocialProof /> */}
         <Features />
         <AIAssistantSection />
-        <Testimonials />
+        {/* <Testimonials /> */}
         <HowItWorks />
         <FinalCTA />
         <BuilderStory />
-        
       </main>
       <Footer />
     </div>

@@ -56,7 +56,7 @@ export default function Footer() {
         {/* Copyright Row */}
         <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
           <p className="text-[13px] md:text-sm text-gray-500 font-medium">
-            Copyright © 2022. Tripscops
+            Copyright © 2026. Tripscops
           </p>
           <p className="text-[13px] md:text-sm text-gray-500 font-medium tracking-wide">
             Made with ❤️
